@@ -896,7 +896,7 @@ class CekilisBot(commands.Bot):
 
 bot = CekilisBot()# --- 🛡️ YETKİ KONTROL FONKSİYONU ---def has_permission(perm_name: str):
 
-    async def predicate(interaction: discord.Interaction):
+async def predicate(interaction: discord.Interaction):
 
         uid = str(interaction.user.id)
 
